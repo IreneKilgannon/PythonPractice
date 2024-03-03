@@ -114,7 +114,7 @@ def unique_list(numbers):
             x.append(item)
     return x
 
-print(unique_list([1,2,3,3,4,5,6,7,5 ,9,9,1, 7]))'''
+print(unique_list([1,2,3,3,4,5,6,7,5 ,9,9,1, 7]))
 
 # Q9 Takes in a number and checks if the number is prime or not
 
@@ -145,4 +145,38 @@ def check_even(number):
         
 print(check_even([1, 2, 3, 4, 5, 6, 7, 8, 9]))
 
-#Q11 Write a function to see if a number is 'Perfect' or not
+#Q11 Write a function to see if a number is 'Perfect' or not. 
+#A perfect number is a positive integer that is equal to the sum of its proper positive devisors.
+# eg 6 is perfect as it is the sum of 1, 2 and 3.
+
+#Q12 Checks if a string is a pallindrome or not
+
+def pallindrome(string):
+    rev_string = ''
+    index = len(string)
+    while index > 0:
+        rev_string += string[index -1]
+        index = index -1
+    if rev_string == string:
+        return True
+    else:
+        return False
+    
+print(pallindrome("nlvan"))
+
+#Q13 Write a function that prints out the first n row of Pascals triangle
+
+def pascals_triangle():
+    triangle = 
+
+
+#Q14 write a function to check if a string is a pangram or not. A pangram is a sentence containing every letter of the alphabet
+    
+def pangram(abc):
+    for x in abc:
+        if x in '''
+
+#Q15 Write a progam that accepts a hyphen-separated sequence of words as input and prints the words in a hyphen-separated sequence after sorting
+
+def hyphen_sorted(a-b-c):
+    
