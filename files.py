@@ -1,4 +1,6 @@
 
+
+
 with open("test-a.txt", "w") as f:
     data = f.write("the number of characters\n")
     print(data)
